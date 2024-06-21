@@ -1,0 +1,5 @@
+//connection with TCP
+<br>
+TcpClient client = new TcpClient("IP", "PortNumber");
+<br>
+ModbusIpMaster master = ModbusIpMaster.CreateIp(client);
